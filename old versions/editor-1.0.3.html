@@ -1,0 +1,22 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="editor-1.0.3.css"> 
+</head>
+<body>
+<div id="editor" data-bind="foreach: textView">
+	<div class='line'>
+		<div class='line-num' data-bind="text: $index() + $root.topLine()"></div>
+		<div class='line-text' data-bind="html: $data, css: { 'line-text-active': $parent.cLine() == $index() + 1}"></div>
+	</div>
+</div>
+<div id="info" data-bind="text: info">
+</div>
+
+<script src="..\Utilities\jquery-2.0.2.min.js"></script>
+<script src="..\Utilities\knockout-2.3.0.js"></script>
+<script src="editor-1.0.3.js"></script>
+
+
+
+</body>
+</html>

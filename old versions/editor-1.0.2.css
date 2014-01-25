@@ -1,0 +1,39 @@
+body { 
+  background-color: #F2F2F2;
+  font-family: monospace;
+  font-size: 16px;  
+}
+
+#editor {
+  border: solid 1px #000000;
+  padding: 10px;
+}
+
+.line {
+  position: relative;
+}
+
+.line-num {
+  float: left;
+  margin-right: 4px;
+  padding-right: 2px;
+  text-align: right;
+  width: 2.5em;
+}
+
+.line-text {
+  display: inline;
+  white-space: pre;
+}
+
+.line-text-active {
+  background-color: #FFFEBD;
+}
+
+#info {
+  background-color: #B0CDFF;
+  border: solid 1px #000000;
+  position: fixed;
+  bottom: 10px;
+  width: 98%;
+}
