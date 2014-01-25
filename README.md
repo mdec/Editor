@@ -5,7 +5,7 @@ Simple text editor built with JavaScript and knockout.js.
 Not really meant to replace a full-featured editor, just a test to 
 see how much I could do with knockout.js.
 
-Demo available here: http://masondecamillis.com/projects/editor/editor-1.0.4.html
+Demo available here: http://masondecamillis.com/project_demos/editor/editor-1.0.4.html
 
 Just start typing and it'll work! Arrows, enter, tab, home, end, auto-scrolling all 
 have normal effect.
